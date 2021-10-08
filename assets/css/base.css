@@ -1,0 +1,80 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --navbar-height: 31.6px;
+    --header-height: 120px;
+    --header__logo-search-buy-height: calc(var(--header-height) - var(--navbar-height))
+} 
+
+*{
+    box-sizing:inherit;
+
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: -6px;
+    margin-right: -6px;
+    
+}
+
+.grid__column-2{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+.grid__column-10{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3333%;
+}
+.grid__column-2-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+
+.pagination{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.pagination-item{
+    font-size: 1.8rem;
+    padding: 7px 15px;
+    margin: 0 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.pagination-item__link{
+    text-decoration: none;
+    color: rgb(161, 161, 161)
+}
+.pagination-item__active{
+    background-color:#ee4d2d;
+}
+.pagination-item__link-active{
+    color:white;
+}
