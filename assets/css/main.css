@@ -152,6 +152,33 @@
     right: 20px;
 }
 
+.home-bar-on-mobile-tablet {
+    display: none;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding: 10px 0;
+    align-items: center; 
+}
+.home-bar__item,
+.home-bar__falldown{
+    padding: 5px 50px;
+}
+.home-bar__falldown{
+    display:flex;
+}
+
+.home-bar__falldown--icon{
+    display:flex;
+    flex-direction:column;
+    font-size: 0.8rem;
+    color:#b3b3b3;
+    margin-left: 10px;
+}
+.home-bar__item{
+    border-right: 2px solid rgb(223, 223, 223);
+}
+
+
 @keyframes GrowwingThing {
     from {
         transform: scale(0);
